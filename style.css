@@ -1,0 +1,337 @@
+*{
+	padding: 0;
+	margin: 0; 
+	box-sizing: border-box;
+}
+
+.clear {
+  clear: left;
+}
+
+.menu-icon {
+	color: white;
+  	float: right;
+  	font-size: 25px;
+  	padding: 21px 0;
+  	opacity: 0;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+.container-header {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container {
+	max-width: 1170px;
+  	width: 100%;
+	margin: 0px auto;
+	padding-bottom: 30px;
+}
+
+.header-about {
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #999;
+	margin-bottom: 30px;
+}
+
+.header {
+	font-weight: normal;
+	margin-bottom: 3px;
+}
+
+.jumbotron {
+	background-image: url(gambar/background.jpg);
+	background-size: cover;
+	height: 500px;
+	background-position: center;
+}
+
+.jumbotron-header {
+	position: absolute;
+	color: white;
+	opacity: 0.7;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+}
+
+.wedding {
+	background-color: #eee;
+}
+
+.content-wedding {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.content-wedding p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.content {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.isi-about {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px; 
+	text-align: center;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+}
+
+.isi-about h2{
+	margin-bottom: 10px;
+}
+
+.img {
+	width: 80px;
+}
+
+.content-satu {
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+.content-dua {
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+.footer-wedding {
+	padding-top: 30px;
+	width: 700px;
+	text-align: center;
+	margin:0px auto;
+}
+
+.about {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.header-book{
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.form {
+	width: 400px;
+	margin:0px auto;
+}
+
+.in {
+	padding:10px;
+	width: 100%;
+	margin:10px;
+}
+
+.fa	{
+	width: 30px;
+}
+
+.guestbook {
+	background-color: #eee;
+}
+
+.submit {
+	margin-left: 10px;
+	width: 100px;
+	padding: 10px;
+	border: none;
+	background-color: green;
+	border-radius: 5px;
+}
+
+label {
+	margin-left: 10px;
+}
+
+
+
+footer
+  {font-family: 'biryani', cursive;
+   padding: 10px;
+   color: black;
+   background-color: rgba(226, 155, 21, 0.315);
+   text-align: center;
+ 
+}
+
+.text-anim p {
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+.message {
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    font-family: impact;
+   
+    
+}
+
+.message {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.message p{
+	margin-bottom: 20px;
+}
+
+.btn-here {
+    padding: 5px 25px;
+    background-color: rgb(22, 203, 235);
+    cursor: pointer;
+    box-shadow: 0 5px rgb(8, 123, 168);
+    border-radius: 50px;
+    opacity: 0.8;
+}
+.btn-here:hover {
+    opacity: 1;
+}
+.btn-here:active {
+    box-shadow:none;
+    position:relative;
+    top:7px;
+}
+
+.media{
+    width: 100%;
+    text-align: center;
+}
+.btn-sosial{
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin: 15px;
+	color: #2421cf;
+	opacity: 0.5;
+	background-color: rgb(22, 203, 235);
+	
+	border-radius: 50px;
+}
+.btn-sosial:hover {
+  opacity: 1;
+  width: 35px;
+  height: 25px;
+}
+
+
+@media all and (max-width: 1000px){
+	.container{
+		width: 100%;
+	}
+
+	.footer-wedding {
+		width: 60%;
+	}
+}
+
+@media all and (max-width: 670px){
+	.container{
+		width: 100%;
+		padding-bottom: 0px;
+	}
+
+	.content {
+		width: 100%;
+		float: none;
+	}
+
+	.isi-about {
+		margin-bottom: 30px;
+	}
+
+	.header-right {
+	    display:none;
+	}
+
+	.content-satu {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.content-dua {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.img {
+		width: 60px;
+	}
+
+	.footer-wedding {
+		padding-bottom: 30px;
+	}
+
+	.form {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.menu-icon {
+		opacity: 1;
+	}
+
+}
